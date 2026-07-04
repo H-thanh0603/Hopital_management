@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "seed": "node backend/db/seed.js"
+    "db:init": "node backend/db/init.js",
+    "db:seed": "node backend/db/seed.js"
   },
   "license": "MIT",
   "dependencies": {
