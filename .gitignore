@@ -4,6 +4,10 @@ node_modules/
 *.sqlite
 *.sqlite3
 backend/db/*.db
+backend/db/*.db-shm
+backend/db/*.db-wal
+*.log
+*.pid
 npm-debug.log*
 .DS_Store
 Thumbs.db
